@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "expense tracker",
+  "main": "server.js",
+  "engines": {
+    "node":"v16.15.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "leepu",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
